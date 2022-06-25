@@ -106,4 +106,4 @@ res <- df %>%
   select(player_name, hroutside_percentage, hr_total)
 
 print(res,n=70)
-
+summary(res$hroutside_percentage)
